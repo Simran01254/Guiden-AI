@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+replicate
+httpx
+python-dotenv
+websockets
