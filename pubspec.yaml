@@ -1,0 +1,107 @@
+name: guiden
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_refresh_rate_control: ^0.0.4+1
+  flutter_screenutil: ^5.9.3
+  get: ^4.7.3
+  lottie: ^3.3.2
+  flutter_svg: ^2.2.3
+  tflite_flutter: ^0.12.1
+  camera:
+  image: ^4.8.0
+  permission_handler: ^12.0.1
+  hand_landmarker: ^2.2.0
+  iconsax_flutter: ^1.0.1
+  audioplayers: ^6.5.1
+  dio: ^5.8.0+1
+  archive: ^4.0.9
+  path_provider: ^2.0.0
+  ultralytics_yolo: ^0.2.0
+  sensors_plus: ^7.0.0
+  pedometer: ^4.2.0
+  speech_to_text: ^7.0.0
+  web_socket_channel: ^3.0.1
+  just_audio: ^0.9.42
+  file_picker: ^10.3.10
+  flutter_sound: ^9.30.0
+  sound_generator: ^0.0.14
+  flutter_tts: ^4.2.5
+  neopop: ^1.0.2
+  blobs: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/fonts/sf/
+    - assets/models/
+    - assets/audio/
+  fonts:
+    - family: SFPro
+      fonts:
+        - asset: assets/fonts/sf/SF-Pro-Display-Ultralight.otf
+          weight: 100
+        - asset: assets/fonts/sf/SF-Pro-Display-Thin.otf
+          weight: 200
+        - asset: assets/fonts/sf/SF-Pro-Display-Light.otf
+          weight: 300
+        - asset: assets/fonts/sf/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/sf/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/sf/SF-Pro-Display-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/sf/SF-Pro-Display-Bold.otf
+          weight: 700
+        - asset: assets/fonts/sf/SF-Pro-Display-Heavy.otf
+          weight: 800
+        - asset: assets/fonts/sf/SF-Pro-Display-Black.otf
+          weight: 900
+
+        # Italics
+        - asset: assets/fonts/sf/SF-Pro-Display-UltralightItalic.otf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/sf/SF-Pro-Display-ThinItalic.otf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/sf/SF-Pro-Display-LightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/sf/SF-Pro-Display-RegularItalic.otf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/sf/SF-Pro-Display-MediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/sf/SF-Pro-Display-SemiboldItalic.otf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/sf/SF-Pro-Display-BoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/sf/SF-Pro-Display-HeavyItalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/sf/SF-Pro-Display-BlackItalic.otf
+          weight: 900
+          style: italic
